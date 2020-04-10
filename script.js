@@ -2,7 +2,7 @@ let i = 0;
 /* first button for red */
 function myFunction() {
 
-        let numb = --i;
+        let numb =++i;
         document.getElementById("number").innerHTML = numb;
 
         //block of code to be executed for condition 1
@@ -20,7 +20,7 @@ function myFunction() {
     
 /*second button for green*/
     function myFunction2(){
-        let numb = ++i;
+        let numb = --i;
         document.getElementById("number").innerHTML = numb;
 
         //block of code to be executed for condition 1
